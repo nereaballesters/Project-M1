@@ -1,8 +1,5 @@
-.wrapper {
-
-}
 .container {
-    margin: 0 17px;
+    margin: 0 15px;
 }
 
 /*sección Stefany*/
@@ -54,31 +51,35 @@
 } 
 
 .hero-image {
-    background-image: url("https://hipertextual.com/archivo/wp-content/uploads/2013/10/HTML-Destacado.jpg");
-    background-size:cover;
-    background-position: center;
-    height:421px;
+    height: 412px;
+    background: url("https://hipertextual.com/archivo/wp-content/uploads/2013/10/HTML-Destacado.jpg") center no-repeat;
+    background-size: cover;
+    
+}
+.hero-image .container{
+    height: 100%;
     display: flex;
     align-items: flex-end;
-    justify-content: center;
 }
-
-.claim{
-    height: 80px;
-    margin: 0 0 -45px 0;
+.claim_hero{
+    margin: 0;
     background-color: #fff;
-    padding: 14px;
+    padding: 10px;
+    flex-grow: 1;
+    transform: translateY(50%);
 }
 
 .claim_text{
-    font-family: OpenSans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    font-weight: 600;
     line-height: 25px;
     color: #000;
 }
 
-
-
+.claim_author{
+    text-align: right;
+}
 
 /*sección Nerea*/
 .txt{
